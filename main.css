@@ -133,4 +133,31 @@ a{
 	align-items: center;
 	justify-content: center;
 	background-color: rgb(0,0,0,0.6);
+	overflow: hidden;
+}
+
+#cta .cta-content .container p{
+	margin-bottom: 1.5rem;
+}
+/*section programme*/
+#programs {
+	color: #252A34;
+
+}
+
+#programs .boxes{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#programs .boxes .box{
+	flex:1;
+	padding: 1rem;
+}
+
+#programs .boxes .box img{
+	width: 70px;
+	padding: 0.5rem;
+	background-color: #08D9D6;
+	border-radius: 100%;
 }
