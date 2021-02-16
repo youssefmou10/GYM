@@ -33,6 +33,10 @@ a{
 	padding: 0.75rem 1.5rem;
 	border-radius: 5px;
 }
+.btn-dark{
+	background-color: #252A34;
+	color: #fff;
+}
 .btn:hover{
 	background-color: #241617;
 }
@@ -45,6 +49,10 @@ a{
 	background: #252A34;
 	color: #fff;
 }
+.bg-primary{
+	background-color: #08D9D6;
+	color: #fff;
+}
 .text-primary{
 	color: #ff2E63;
 }
@@ -52,7 +60,7 @@ a{
 	display: flex;
 	justify-content:space-between;
 	align-items: center;
-	padding: 1rem;
+	padding: 0.75rem;
 	position: sticky;
 	top: 0;
 	z-index: 1;
@@ -191,4 +199,28 @@ a{
 
 #trainers .trainers-boxes .trainer-box ul li a :hover{
 	color: #f34521;
+}
+
+/*Section Contact Us */
+#contact{
+	display: flex;
+}
+
+#contact .contact-us , #contact .map{
+	flex: 1;
+}
+#contact .contact-us input , #contact .contact-us textarea{
+	width: 100%;
+	padding: 0.75rem;
+	border: none;
+	margin-bottom: 1rem;
+	outline: none;
+}
+#contact .contact-us .from-group{
+	display: flex;
+
+}
+#contact .contact-us .from-group input[type="text"]
+{
+	margin-right: 0.75rem;
 }
